@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 }
 
 nav{
@@ -16,46 +17,52 @@ nav{
 
 nav img{
     height: 45px;
+    margin-left: 8px;
 }
 
 .img_building{
     height: 28px;
+    margin-left: 10px;
 
 }
 
 .navbar{    
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 11vh;
+    height: 9vh;
 }
 .list_nav ul {
     display: flex;
     list-style-type: none;
-   
+    font-size: 0.75rem;
     margin: 15px 0 15px 0;
     
 }
 
 .list_nav a {
     color: white;
-    padding: 30px;
+    padding: 17px;
     text-decoration: none;
 }
 .selectPerfil_navbar{
     display: flex;
     align-items: center;
+    background-color: #006595;
+    height: 100%;
+    width: 16vw;
 }
 
 .select_navbar{
-    width: 257px;
+    width: 26vw;
     display: flex;
     justify-content: space-between;
     height: 6vh;
     background-color: #006595;
     align-items: center;
     border-radius: 3px;
+    
 }
 
 .select_navbar select {
@@ -63,12 +70,12 @@ nav img{
     background-color: transparent;
     color: white;
     border: none;
+    padding-right: 81px;
+    margin-right:10px;
     border-left: 1px solid white;
 }
 
-.selectPerfil_navbar{
-    background-color: #006595;
-}
+
 
 .selectPerfil_navbar select{
     width: 119px;
@@ -76,5 +83,27 @@ nav img{
     background-color: transparent;
     color: white;
     border: none;
+    margin-left: 10px;
+
+
   
+}
+
+/* sessao main */
+
+.titlescod_edificios{
+    align-items: center;
+    display: flex;
+    background-color: #e6e9ed;
+    height: 5vh;
+}
+
+.titlecods{
+display: flex;
+width: 70%;
+margin: 0 auto;
+font-size: 0.75rem;
+}
+.titlecods p {
+    margin-left: 2px;
 }
