@@ -9,7 +9,7 @@ body{
 
 nav{
     display: flex;
-    background-color: #006EB4;
+    background-color: #0071bb;
 
 }
 
@@ -28,6 +28,7 @@ nav img{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    height: 11vh;
 }
 .list_nav ul {
     display: flex;
@@ -51,5 +52,29 @@ nav img{
     width: 257px;
     display: flex;
     justify-content: space-between;
+    height: 6vh;
+    background-color: #006595;
+    align-items: center;
+    border-radius: 3px;
 }
 
+.select_navbar select {
+    background-image: transparent;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-left: 1px solid white;
+}
+
+.selectPerfil_navbar{
+    background-color: #006595;
+}
+
+.selectPerfil_navbar select{
+    width: 119px;
+    background-image: transparent;
+    background-color: transparent;
+    color: white;
+    border: none;
+  
+}
