@@ -8,76 +8,284 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <script src="main.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 
 <body>
     <nav>
 
         <div class="navbar">
-                <img src="assets/logo_hubert1.svg" alt="">
+            <img src="assets/logo_hubert1.svg" alt="">
 
-                <div class="list_nav">
-                    <ul>
-                        <li>
-                            <a href="#">Agendamentos</a>
-                        </li>
-                        <li>
-                            <a href="#">Ficha técnica</a>
-                        </li>
-                        <li>
-                            <a href="#">Inventário</a>
-                        </li>
-                        <li>
-                            <a href="#">Vistoria</a>
-                        </li>
-                        <li>
-                            <a href="#">Relatório</a>
-                        </li>
-                    </ul>
-        
-                </div>
+            <div class="list_nav">
+                <ul>
+                    <li>
+                        <a href="#">Agendamentos</a>
+                    </li>
+                    <li>
+                        <a href="#">Ficha técnica</a>
+                    </li>
+                    <li>
+                        <a href="#">Inventário</a>
+                    </li>
+                    <li>
+                        <a href="#">Vistoria</a>
+                    </li>
+                    <li>
+                        <a href="#">Relatório</a>
+                    </li>
+                </ul>
 
-                <div class="select_navbar">
-                        <img src="assets/building.svg" alt="" class="img_building" srcset="">
-                        <select name="hubertlist" >
-                                <option id="edificio2" value="edificioPlatium">0235453- Edifício Platium Tower</option>
-                                <option id="edificio3" value="saab">0235453- Edifício Platium Tower</option>
-                                <option id="edificio4" value="opel">0235453- Edifício Platium Tower</option>
-                                <option id="edificio5" value="audi">0235453- Edifício Platium Tower</option>
-                        </select>
-                    </div>
+            </div>
 
-                    <div class="selectPerfil_navbar">
-                            <img src="assets/img-perfil.jpg" alt="">
-                            <select name="perfilist">
-                                   >
-                                    <option id="edificio2" value="edificioPlatium">Lucia Almeida</option>
-                                    <option id="edificio3" value="saab">0235453- Edifício Platium Tower</option>
-                                    <option id="edificio4" value="opel">0235453- Edifício Platium Tower</option>
-                                    <option id="edificio5" value="audi">0235453- Edifício Platium Tower</option>
-                            </select>
-                        </div>
-    
-            
+            <div class="select_navbar">
+                <img src="assets/building.svg" alt="" class="img_building" srcset="">
+                <select name="hubertlist">
+                    <option id="edificio2" value="edificioPlatium">0235453- Edifício Platium Tower</option>
+                    <option id="edificio3" value="saab">0235453- Edifício Platium Tower</option>
+                    <option id="edificio4" value="opel">0235453- Edifício Platium Tower</option>
+                    <option id="edificio5" value="audi">0235453- Edifício Platium Tower</option>
+                </select>
+            </div>
 
-        </div>       
+            <div class="selectPerfil_navbar">
+                <img src="assets/img-perfil.jpg" alt="">
+                <select name="perfilist">
+                    >
+                    <option id="edificio2" value="edificioPlatium">Lucia Almeida</option>
+                    <option id="edificio3" value="saab">0235453- Edifício Platium Tower</option>
+                    <option id="edificio4" value="opel">0235453- Edifício Platium Tower</option>
+                    <option id="edificio5" value="audi">0235453- Edifício Platium Tower</option>
+                </select>
+            </div>
+
+
+
+        </div>
 
     </nav>
 
     <main>
-        <div class="titlescod_edificios">
+        <div class="titlescod_building">
             <div class="titlecods">
-                    <a href="#" id="ficha_tecnica"> Ficha técnica > </a>
-                    <p id="cod_edificios">  Cod:0236453 - Edifício Platium - Rua Felicidade 207, Parque, São Paulo - SP</a>
+                <a href="#" id="ficha_tecnica"> Ficha técnica > </a>
+                <p id="cod_edificios"> Cod:0236453 - Edifício Platium - Rua Felicidade 207, Parque, São Paulo - SP</a>
             </div>
 
-            <div class="section">
-                
-            </div>
-           
         </div>
+        <section class="informationsbuilding">
+            <div class="container">
+
+                <div class="name_and_cod_building">
+                    <h1 id="name_building"> Edíficio Platinum</h1>
+                    <h4 id="cod_building">
+                        <a href="#"> COD 023653</a>
+                    </h4>
+                </div>
+
+                <div class="dados_building">
+                    <div class="cod_stret">
+                        <h5>Endereço: </h5>
+                        <p id="cod_stret"> Rua felicidade</p>
+
+                    </div>
+                    <div class="cod_stret">
+                        <h5>Número: </h5>
+                        <p id="cod_number"> 3232</p>
+
+                    </div>
+                    <div class="cod_stret">
+                        <h5>Bairro: </h5>
+                        <p id="cod_district"> Parque</p>
+                    </div>
+                    <div class="cod_stret">
+                        <h5>Cidade: </h5>
+                        <p id="cod_city">São Paulo</p>
+                    </div>
+                    <div class="cod_stret">
+                        <h5>Estado: </h5>
+                        <p id="cod_country">São Paulo</p>
+                    </div>
+                    <div class="cod_stret">
+                        <h5>CEP: </h5>
+                        <p id="cod_cep">04578-190</p>
+                    </div>
+
+                </div>
+
+                <div class="update_building">
+                    <h5 id="update"> última atualização em 01/01/2017</h5>
+                    <div class="update_name">
+                        <h5> Vistoriador :</h5>
+                        <p>José Carlos </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="tabsforms">
+            <div class="container">
+                <div class="titlefichatecnica">
+                    <p>Ficha técnica</p>
+                </div>
+                <div class="tabs">
+                    <ul class="tab-links">
+                        <li class="active">
+                            <a href="#tab1">Informações e Características</a>
+                        </li>
+                        <li>
+                            <a href="#tab2">Regiões & Locais</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="tab1" class="tab active">
+                            <div class="container-tab">
+                                <div class="alinhar-tab">
+                                    <div class="input-tab">
+                                        <h5>Incorporadora</h5>
+                                        <input type="text" placeholder="ABC LTDA">
+                                    </div>
+
+                                    <div class="input-tab">
+                                        <h5>Engenheiro</h5>
+                                        <input type="text" placeholder="Luis Carlos Neto">
+                                    </div>
+
+                                    <div class="input-tab ">
+                                        <h5>Método Construtivo</h5>
+                                        <input type="text" class="input-selector">
+                                    </div>
+
+                                </div>
+
+                                <div class="alinhar-tab2">
+                                    <div class="input-tab">
+                                        <h5>Construtora</h5>
+                                        <input type="text" placeholder="Construtucture LTDA">
+                                    </div>
+                                    <div class="input-tab">
+                                        <h5>Outros responsáveis</h5>
+                                        <input type="text">
+                                    </div>
+                                    <div class="input-tab">
+                                        <h5>Telefone</h5>
+                                        <input type="text" class="input-selector">
+                                    </div>
+
+
+                                </div>
+                                <p>Características do Empreendimento</p>
+                                <div class="alinhar-tab3">
+
+                                    <div class="input-tab">
+                                        <h5>Tipo</h5>
+                                        <select name="tipodeempreendimento">
+                                            <option id="Empreendimento1" value="ap">Apartamentos</option>
+                                            <option id="Empreendimento2" value="home">Casas</option>
+                                            <option id="Empreendimento3" value="sobrado">Sobrados</option>
+
+                                        </select>
+
+                                    </div>
+                                    <div class="input-tab">
+
+                                        <h5>Área construída</h5>
+                                        <input type="text" class="input-tab_tipodeempreendimento" placeholder=" 12000 m²">
+                                    </div>
+
+                                    <div class="input-tab">
+                                        <h5>Área do terreno</h5>
+                                        <input type="text" class="input-tab_tipodeempreendimento" placeholder="129000m²">
+                                    </div>
+
+                                    <div class="input-tab">
+                                        <h5>Área verde</h5>
+                                        <input type="text" class="input-tab_tipodeempreendimento" placeholder="9000m²">
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="alinhar-tab4">
+                                    <h5>
+                                        Observação
+                                    </h5>
+                                    <textarea cols="30" rows="5" class="txt-obs" style="resize: none"></textarea>
+
+                                </div>
+
+                                <div class="linha">
+
+                                </div>
+
+                                <p>Informações técnicas</p>
+                                <div class="alinhar-tab5">
+
+
+                                    <div class="input-tab">
+                                        <h5>Proteção Patrimonial</h5>
+                                        <select name="protecaopatrimonial">
+                                            <option id="Protecao1" value="naoverificado">Não verificado</option>
+                                            <option id="Protecao2" value="verificado"> Verificado</option>
+
+
+                                        </select>
+                                    </div>
+
+                                    <div class="input-tab">
+                                        <h5>Antenas</h5>
+                                        <select name="antenas">
+                                            <option id="Antenas1" value="naopossui">Não possui</option>
+                                            <option id="Antenas2" value="possui"> Possui</option>
+
+
+                                        </select>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="alinhar-tab6">
+                                        <div class="input-tab">
+                                                <h5>Sistema CFTV</h5>
+                                                <select name="sistemacftv">
+                                                    <option id="Sistemacftv1" value="naoverificado">Não verificado</option>
+                                                    <option id="sistemacftv2" value="verificado"> Verificado</option>
+        
+        
+                                                </select>
+                                            </div>
+        
+                                           
+                                            <div class="input-tab">
+                                                    <h5>Qtd. de Câmeras</h5>
+                                                    <input type="text" class="input-tab_tipodeempreendimento" placeholder="38">
+                                                </div>
+                                </div>
+
+                                <div id="tab2" class="tab">
+                                    <p>Tab #2 content goes here!</p>
+                                    <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet
+                                        velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa
+                                        interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus
+                                        hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus
+                                        orci, iaculis vel.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
     </main>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

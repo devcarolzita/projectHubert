@@ -6,6 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    background-color: #f2f2f2;
 }
 
 nav{
@@ -91,7 +92,7 @@ nav img{
 
 /* sessao main */
 
-.titlescod_edificios{
+.titlescod_building{
     align-items: center;
     display: flex;
     background-color: #e6e9ed;
@@ -106,4 +107,209 @@ font-size: 0.75rem;
 }
 .titlecods p {
     margin-left: 2px;
+}
+
+
+.informationsbuilding{
+    background-color: #f2f2f2;
+    width: 100%;
+    
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.name_and_cod_building{
+    display: flex;
+    margin-top: 20px;
+    align-items: baseline;
+}
+
+#name_building{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    /* font-weight: 600; */
+}
+#cod_building{
+    margin-left: 9px;
+  
+    color: grey;
+}
+
+.dados_building{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.cod_stret{
+    display: flex;
+}
+
+.cod_stret p {
+    font-size: 0.87rem;
+    margin-left: 2px;
+}
+
+.update_building{
+    display: flex;
+}
+
+.update_name{
+    display: flex;
+    margin-left: 10px;
+}
+
+.update_name p {
+    font-size: 0.87rem;
+    margin-left: 6px;
+}
+
+.titlefichatecnica{
+    margin-top: 30px;
+    font-size: 1.60rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.tabs {
+	width:100%;
+	display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+	.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+
+.tab-links li {
+	
+	float:left;
+	list-style:none;
+}
+
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#e6e9ed;
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+    transition:all linear 0.15s;
+    text-decoration: none;
+
+}
+
+
+
+li.active a, li.active a:hover {
+	background:#fff;
+	color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+	background:#fff;
+}
+
+.tab {
+	display:none;
+}
+
+.tab.active {
+	display:block;
+}
+
+input{
+    padding: 8px 15px;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: yellow 2px solid;
+    border: 2px solid #e6e9ed;
+    width: 250px;
+}
+
+.container-tab{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.alinhar-tab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-selector{
+    width: 200px;
+}
+
+.alinhar-tab2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 84px;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.alinhar-tab3{
+    margin-top: 20px;
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.input-tab select{
+    padding: 8px 15px;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #e6e9ed;
+    width: 140px;
+    color: #757575;
+
+}
+.input-tab_tipodeempreendimento{
+    width: 90px;
+}
+
+.alinhar-tab4{
+
+    margin-top: 20px;
+    width: 52%;
+    
+}
+.txt-obs{
+    padding: 8px 15px;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #e6e9ed;
+    width: 100%;
+    color: #757575;
+    
+}
+
+.linha {
+    margin-top: 20px;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.alinhar-tab5{
+    display: flex;
+    width: 29%;
+    justify-content: space-between;
+}
+
+.alinhar-tab6{
+    display: flex;
+    width: 29%;
+    justify-content: space-between;   
 }
