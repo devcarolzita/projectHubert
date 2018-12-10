@@ -99,9 +99,13 @@ nav img{
     height: 5vh;
 }
 
+#cod_building a {
+    color: #757575;
+}
+
 .titlecods{
 display: flex;
-width: 70%;
+width: 90%;
 margin: 0 auto;
 font-size: 0.75rem;
 }
@@ -141,6 +145,7 @@ font-size: 0.75rem;
     display: flex;
     justify-content: space-between;
     margin-top: 11px;
+    width: 73%;
 }
 .cod_stret{
     display: flex;
@@ -171,6 +176,9 @@ font-size: 0.75rem;
     margin-left: 10px;
     margin-bottom: 10px;
 
+}
+#ficha_tecnica{
+    color: #0071bb;
 }
 
 .tabs {
@@ -300,16 +308,57 @@ input{
 .linha {
     margin-top: 20px;
     border-bottom: 3px solid #f2f2f2;
+    margin-bottom: 20px;
 }
 
 .alinhar-tab5{
     display: flex;
     width: 29%;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 55px;
 }
 
 .alinhar-tab6{
     display: flex;
     width: 29%;
     justify-content: space-between;   
+    margin-bottom: 75px;
+    
+}
+
+.qtd-camera{
+    width: 107px;
+    height: 19px;
+}
+
+#btn-save{    padding: 8px 15px;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #e6e9ed;
+    /* width: 100%; */
+    /* color: #757575; */
+    background-color: white;
+    margin-top: 20px;
+    font-size: 1rem;      
+}
+
+#btn-final{
+    padding: 8px 15px;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #e6e9ed;
+    font-size: 1rem;   
+    margin-top: 20px;
+
+    background-color: #8cc152;
+    color:white;
+
+}
+
+.btn-footer{
+    display: flex;
+    justify-content: space-between;
 }
